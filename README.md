@@ -1,23 +1,29 @@
 ## How to run
 
-# 1. Clone Reporsitory
+### 1. Clone Reporsitory
 
 ``` bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/FabricioCes/task-developstoday.git
 ```
-# 2. Go into project folder
+### 2. Go into project folder
 
 ```bash
-cd your-repo
+cd task-developstoday
 ```
 
-# 3. Install the required packages
+### 3. Install the required packages
 ``` bash
  npm i
 ```
 
-# 4. Run the application
+### 4. Run the application
 
 ``` bash
  npm run dev
 ```
+
+### Preview:
+
+https://task-developstoday.vercel.app/
+
+You can see a preview for solution in this link.

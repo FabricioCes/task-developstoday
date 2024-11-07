@@ -11,9 +11,10 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+
     const fetchMakes = async () => {
       setLoading(true);
-      const response = await fetch('https://vpic.nhtsa.dot.gov/api/vehicles/GetMakesForVehicleType/car?format=json');
+      const response = await fetch("https://vpic.nhtsa.dot.gov/api/vehicles/GetMakesForVehicleType/car?format=json");
       const data = await response.json();
       setMakes(data.Results);
       setLoading(false);
